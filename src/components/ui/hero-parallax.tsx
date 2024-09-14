@@ -16,7 +16,7 @@ export const HeroParallax = ({
   products: {
     title: string;
     link: string;
-    thumbnail: string;
+    
   }[];
 }) => {
   const firstRow = products.slice(0, 5);
@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="lg:h-[380vh] md:h-[360vh] h-[320vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -103,15 +103,25 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        The Ultimate <br /> development studio
+    <div className="max-w-full flex flex-wrap-reverse justify-evenly items-center relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
+      <div>
+
+      <h1 className="text-2xl text-white md:text-7xl font-bold dark:text-white">
+        Welcome to<br /> My Graphic Portfolio
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+      <p className="max-w-2xl  text-white text-base md:text-xl mt-8 dark:text-neutral-200 ">
+      I craft visually stunning designs using modern tools and techniques.<br/>
+      I am a passionate graphic designer who loves creating impactful visuals and memorable brand experiences. From concept to execution, I turn ideas into compelling designs that stand out.
+
       </p>
+      </div>
+      <div>
+        <img
+          src="https://utfs.io/f/a9350f24-f2a2-4eed-8c78-d3a0118ba03c-1q4e47.jpg"
+          className="object-cover object-center w-96 h-96 rounded-full"
+          alt="My Image"
+        />
+      </div>
     </div>
   );
 };
@@ -123,7 +133,7 @@ export const ProductCard = ({
   product: {
     title: string;
     link: string;
-    thumbnail: string;
+   
   };
   translate: MotionValue<number>;
 }) => {
@@ -143,7 +153,7 @@ export const ProductCard = ({
         className="block group-hover/product:shadow-2xl "
       >
         <Image
-          src={product.thumbnail}
+          src={product.link}
           height="600"
           width="600"
           className="object-cover object-left-top absolute h-full w-full inset-0"

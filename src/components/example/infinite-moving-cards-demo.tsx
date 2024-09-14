@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 export default function InfiniteMovingCardsDemo() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="rounded-md flex flex-col antialiased bg-slate-950 dark:bg-grid-white/[0.05] items-center justify-center relative">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
@@ -18,31 +18,26 @@ export default function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Sujal's designs exceeded our expectations. The creativity and attention to detail brought our vision to life. The posters and banners were stunning and delivered on time.",
+    name: "Rohit Sharma",
+    title: "Coordinator, SVIET College",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "Working with Sujal was a fantastic experience. The social media graphics created for our LinkedIn and Instagram campaigns were not only eye-catching but also effectively conveyed our brand message.",
+    name: "Priya Mehta",
+    title: "Marketing Head, Try in Tricity",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: 
+      "Sujal's ability to transform ideas into visually appealing designs is truly commendable. The flex and standees designed for our event were vibrant and professional.",
+    name: "Anjali Verma",
+    title: "Community Manager, The Uniques Community",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
-  },
+      "The banners and posters designed by Sujal were top-notch. They captured the essence of our campaign perfectly and helped us engage our audience more effectively.",
+    name: "Arjun Singh",
+    title: "Creative Lead, GDSC SVIET",
+  }
 ];
