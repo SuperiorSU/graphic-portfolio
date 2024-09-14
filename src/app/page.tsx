@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <div className="bg-slate-950">
       <NavBar />
+      <div className="py-0" id="home"></div>
       <HeroParallax products={heroData} />
       <div className="py-16"></div>
       <ASection />
