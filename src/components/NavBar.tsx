@@ -27,12 +27,14 @@ const NavBar: React.FC = () => {
             <nav className='flex justify-between py-4 items-center lg:ps-7 lg:pe-7 ps-2 pe-2 border-b-[1px] border-slate-600'>
                 <div>
                     <div className='flex gap-x-9 justify-around items-center'>
+                            <a href="#">
                         <div className='logo grid grid-cols-2 content-center place-items-center text-white font-medium'>
-                            <div className='w-8 h-8  inline-block'>
-                                <img src="https://utfs.io/f/a9350f24-f2a2-4eed-8c78-d3a0118ba03c-1q4e47.jpg" alt="" className='w-8 h-8 object-cover rounded-full ' />
-                            </div>
-                            <div className='lg:text-[18px] text-sm font-semibold'>KUMAR SUJAL</div>
+                                <div className='w-8 h-8  inline-bloc'>
+                                    <img src="https://utfs.io/f/a9350f24-f2a2-4eed-8c78-d3a0118ba03c-1q4e47.jpg" alt="" className='w-8 h-8 object-cover rounded-full ' />
+                                </div>
+                                <div className='lg:text-[18px] text-sm font-semibold'>KUMAR SUJAL</div>
                         </div>
+                            </a>
                         <div>
                             {/* Navigation items, hidden on smaller screens */}
                             <ul className='hidden gap-x-7 justify-around items-center lg:flex md:flex sm:hidden'>
