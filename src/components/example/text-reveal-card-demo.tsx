@@ -4,7 +4,7 @@ import {
   TextRevealCard,
   TextRevealCardDescription,
   TextRevealCardTitle,
-} from "../ui/text-reveal-card";
+} from "@/components/ui/text-reveal-card";
 
 export default function TextRevealCardPreview() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
-import { Spotlight } from "../ui/spotlight";
+import { Spotlight } from "@/components/ui/spotlight";
 
 export default function SpotlightPreview() {
   return (

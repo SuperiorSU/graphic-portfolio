@@ -1,18 +1,14 @@
-import FeaturesSectionDemo from "@/components/blocks/features-section-demo-1";
 import { FaGithub, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 import BentoGridDemo from "@/components/example/bento-grid-demo";
-import GlobeDemo from "@/components/example/globe-demo";
+
 import LayoutGridDemo from "@/components/example/layout-grid-demo";
 
 import { HeroParallax } from "@/components/ui/hero-parallax";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import NavBar from "@/components/NavBar";
 
-import { heroData, images, testimonials } from "@/lib/data";
+import { heroData, testimonials } from "@/lib/data";
 import ASection from "@/components/ASection";
-import ContactSection from "@/components/ContactSection";
-import Head from "next/head";
-// import Image from "next/image";
 
 export default function Home() {
   return (

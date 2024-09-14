@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { WobbleCard } from "../ui/wobble-card";
+import { WobbleCard } from "@/components/ui/wobble-card";
 
 export default function WobbleCardDemo() {
   return (

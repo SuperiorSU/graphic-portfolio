@@ -1,4 +1,4 @@
-import { GlareCard } from "../ui/glare-card";
+import { GlareCard } from "@/components/ui/glare-card";
 
 export default function GlareCardDemo() {
   return (

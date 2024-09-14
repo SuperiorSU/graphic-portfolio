@@ -3,7 +3,7 @@ import React from "react";
 import { calsans } from "@/fonts/calsans";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
-import { TracingBeam } from "../ui/tracing-beam";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export default function TracingBeamDemo() {
   return (

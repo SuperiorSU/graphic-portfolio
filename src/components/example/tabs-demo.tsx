@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Tabs } from "../ui/tabs";
+import { Tabs } from "@/components/ui/tabs";
 
 export default function TabsDemo() {
   const tabs = [

@@ -1,5 +1,5 @@
 "use client";
-import { MaskContainer } from "../ui/svg-mask-effect";
+import { MaskContainer } from "@/components/ui/svg-mask-effect";
 
 export default function SVGMaskEffectDemo() {
   return (

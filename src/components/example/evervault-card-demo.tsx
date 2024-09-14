@@ -1,5 +1,5 @@
 import React from "react";
-import { EvervaultCard, Icon } from "../ui/evervault-card";
+import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
 
 export default function EvervaultCardDemo() {
   return (

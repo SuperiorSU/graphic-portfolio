@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { DirectionAwareHover } from "../ui/direction-aware-hover";
+import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 
 export default function DirectionAwareHoverDemo() {
   const imageUrl =

@@ -4,7 +4,7 @@ import {
   GlowingStarsBackgroundCard,
   GlowingStarsDescription,
   GlowingStarsTitle,
-} from "../ui/glowing-stars";
+} from "@/components/ui/glowing-stars";
 
 export default function GlowingStarsBackgroundCardPreview() {
   return (

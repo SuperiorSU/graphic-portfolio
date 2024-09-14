@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FollowerPointerCard } from "../ui/following-pointer";
+import { FollowerPointerCard } from "@/components/ui/following-pointer";
 
 export default function FollowingPointerDemo() {
   return (
