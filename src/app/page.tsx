@@ -16,7 +16,7 @@ export default function Home() {
       <NavBar />
       <div className="py-0" id="home"></div>
       <HeroParallax products={heroData} />
-      <div className="py-16"></div>
+      <div className="py-20"></div>
       <ASection />
       <div className="py-16"></div>
       {/* <ParallaxScroll images={images} /> */}
