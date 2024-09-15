@@ -5,7 +5,7 @@ import { RxCross1 } from "react-icons/rx";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { cn } from "@/lib/utils"; // Assuming you have a utility function for class names
 
-const sections = ["home", "about", "highlights", "designs","clients", "reviews", "contact"];
+const sections = ["home", "about", "highlights", "designs","clients", "reviews"];
 
 const NavBar: React.FC = () => {
     const [isClicked, setIsClicked] = useState<boolean>(false);

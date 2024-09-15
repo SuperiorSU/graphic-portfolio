@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 import BentoGridDemo from "@/components/example/bento-grid-demo";
-
 import LayoutGridDemo from "@/components/example/layout-grid-demo";
 
 import { HeroParallax } from "@/components/ui/hero-parallax";
@@ -20,10 +19,10 @@ export default function Home() {
       <div className="py-20"></div>
       <ASection />
       <div className="py-16"></div>
-      {/* <ParallaxScroll images={images} /> */}
+      
       <div className="p-10 grid grid-cols-1 place-items-center content-center lg:grid-cols-3 gap-7">
         <div className="lg:col-span-1 rounded-lg h-full pt-12">
-          {/* <img src="https://utfs.io/f/ebced0cb-0caf-4cca-91c8-956c0ae02484-z1r4tf.png" className="object-cover w-full h-full rounded-lg" alt="" /> */}
+          
           <div className="lg:-rotate-90 lg:mt-80  ">
             <p className="text-slate-200 font-bold uppercase lg:text-xl text-base lg:text-start text-center">
               Design Portfolio
@@ -37,9 +36,7 @@ export default function Home() {
           <BentoGridDemo />
         </div>
       </div>
-      
       <div className="py-20"></div>
-
       <div className="py-10" id="designs">
         <p className="text-slate-200 font-bold uppercase lg:text-xl text-base text-center">
           See my
@@ -109,7 +106,7 @@ export default function Home() {
       <div>
         <div className=" px-4 py-7 ">
           <div className="border-b-[1px] border-slate-500 lg:flex md:flex flex justify-between items-center">
-            <div >
+            <div>
               <p className="text-slate-300 text-sm">
                 Portfolio |{" "}
                 <span className="text-white uppercase font-semibold">
