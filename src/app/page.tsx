@@ -93,6 +93,7 @@ export default function Home() {
         </div>
       </div>
       <div className="py-12"></div>
+      <div id="clients"></div>
       <Clients/>
       <div className="py-12"></div>
       <div className="px-4 py-20" id="reviews">
