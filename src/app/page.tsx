@@ -9,6 +9,7 @@ import NavBar from "@/components/NavBar";
 
 import { heroData, testimonials } from "@/lib/data";
 import ASection from "@/components/ASection";
+import Clients from "@/components/Clients";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
           <BentoGridDemo />
         </div>
       </div>
-      <div>{/* <FeaturesSectionDemo/> */}</div>
+      
       <div className="py-20"></div>
 
       <div className="py-10" id="designs">
@@ -91,6 +92,9 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <div className="py-12"></div>
+      <Clients/>
+      <div className="py-12"></div>
       <div className="px-4 py-20" id="reviews">
         <p className="text-slate-200 font-bold uppercase lg:text-xl text-base text-center">
           Words of
